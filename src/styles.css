@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+.truncate {
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-error {
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  background-color: rgb(236, 182, 162);
+  color: crimson;
+}
